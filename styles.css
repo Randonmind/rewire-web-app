@@ -1,0 +1,49 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.big-button {
+    background-color: #A8D5BA; /* Soft Green */
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 36px;
+    padding: 100px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.small-button {
+    background-color: #F4A261; /* Warm Orange */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#motivationText {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.quote-container {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    overflow-x: auto;
+    white-space: nowrap;
+}
